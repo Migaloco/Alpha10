@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="81dp" android:gravity="center|top">
+
+    <TextView
+            android:id="@+id/sign_in_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/sign_in"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="62dp" android:gravity="top"/>
+    <TextView
+            android:text="Be careful filling the following information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sign_in_warning" android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:id="@+id/sign_in_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="176dp" android:hint="@string/username"
+            android:layout_marginTop="30dp"/>
+
+    <EditText
+            android:id="@+id/sign_in_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="248dp" android:hint="@string/password" android:gravity="center"
+            android:layout_marginTop="40dp"/>
+
+    <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Next"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="375dp"/>
+
+</LinearLayout>

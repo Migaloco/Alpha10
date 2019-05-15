@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Alpha1.0</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="username">Username</string>
+    <string name="title_activity_profile_main">ProfileMain</string>
+    <string name="title_activity_percursos_main">PercursosMain</string>
+    <string name="profile">Profile</string>
+    <string name="course">Course</string>
+</resources>

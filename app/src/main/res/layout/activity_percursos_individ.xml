@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".PercursosIndivid" android:id="@+id/percursos_individ_layout">
+    <TextView
+            android:text="Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/percursos_individ_title" android:textSize="30sp"
+            android:gravity="center" android:paddingTop="60dp" android:paddingBottom="100dp"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/percursos_individ_small">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="20dp"
+                android:id="@+id/percursos_individ_stats">
+            <TextView
+                    android:text="Difficulty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/percursos_individ_dif" android:textSize="18sp"
+                    android:paddingBottom="8dp"/>
+            <TextView
+                    android:text="difficultyN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/percursos_individ_dif_number"
+                    android:textSize="22sp"/>
+            <TextView
+                    android:text="Distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/percursos_individ_dist"
+                    android:textSize="18sp"
+                    android:paddingTop="15dp" android:paddingBottom="8dp"/>
+            <TextView
+                    android:text="distanceN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/percursos_individ_dist_number"
+                    android:textSize="22sp"/>
+        </LinearLayout>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1"
+                android:id="@+id/percursos_individ_categories_layout">
+
+            <GridView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:numColumns="auto_fit"
+                    android:id="@+id/percursos_individ_categories_layout_grid"/>
+        </ScrollView>
+    </LinearLayout>
+    <TextView
+            android:text="Description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/percursos_individ_description" android:textSize="18sp"
+            android:paddingStart="20dp" android:paddingTop="30dp" android:layout_weight="1"/>
+    <TextView
+            android:text="Photos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/percursos_individ_photo_title"
+            android:textSize="18sp" android:paddingBottom="10dp" android:paddingStart="20dp"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/percursos_individ_photos_layout" android:layout_weight="1">
+
+        <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="auto_fit"
+                android:id="@+id/percursos_individ_"/>
+    </ScrollView>
+</LinearLayout>

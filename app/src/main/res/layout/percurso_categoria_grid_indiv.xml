@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:padding="10dp" android:id="@+id/percurso_ct_grid_indiv_layout">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/percurso_categoria_grid_image"
+            android:padding="10dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/percurso_categoria_grid_indiv_text"
+            android:padding="10dp"
+            android:textSize="18sp"/>
+</LinearLayout>

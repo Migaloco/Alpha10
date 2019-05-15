@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:gravity="top" android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp" android:layout_marginEnd="20dp" android:id="@+id/sign_in_sec_layout">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/sign_in_sec_scroll">
+        <TextView
+                android:text="Preencha a informação com cuidado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/sign_in_sec_advice"
+                android:textSize="24sp" android:layout_gravity="center" android:layout_marginBottom="30dp"
+                android:textStyle="bold" android:gravity="center"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_email" android:layout_marginBottom="15dp" android:hint="E-mail"
+                android:textSize="14sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_profile" android:layout_marginBottom="15dp"
+                android:hint="Perfil (Publico/Privado)"
+                android:textSize="14sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_home_phone" android:layout_marginBottom="15dp" android:hint="Telefone"
+                android:textSize="14sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_mobile" android:layout_marginBottom="15dp" android:hint="Telémovel"
+                android:textSize="14sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_address" android:layout_marginBottom="15dp" android:hint="Morada"
+                android:textSize="14sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_comp" android:layout_marginBottom="15dp"
+                android:hint="Complementar (nº3, 3ºC)"
+                android:textSize="14sp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/sign_in_sec_local" android:layout_marginBottom="15dp" android:hint="Localidade"
+                android:textSize="14sp"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/sign_in_sec_post_code" android:hint="Código Postal" android:textSize="14sp"/>
+            <Button
+                    android:text="Finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sign_in_sec_finish"
+                    android:layout_marginStart="40dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
